@@ -119,7 +119,7 @@ with tab1:
     else:
         rendimento_part_time = 0
 
-    st.success("Avança para a TAB 📊 Resultado Final assim que terminares de preencher esta.")
+    st.success("Avança para a TAB 💸 Gastos Mensais assim que terminares de preencher esta.")
 
 # =====================================================
 # TAB 2 — GASTOS
@@ -157,7 +157,7 @@ with tab2:
             st.warning(
                 f"{categoria}: gasto acima da média ({valor}€ vs {media}€)"
             )
-    st.success("Avança para a TAB 💸 Gastos Mensais assim que terminares de preencher esta.")
+    st.success("Avança para a TAB 📊 Resultado Final assim que terminares de preencher esta.")
 
 
 
