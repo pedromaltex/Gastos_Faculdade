@@ -46,6 +46,7 @@ def plot_gastos_pie(gastos_dict):
         hole=0.4
     )
 
+
     fig.update_traces(
         textinfo="percent+label",
         hovertemplate="<b>%{label}</b><br>%{value:.0f}€<extra></extra>"
